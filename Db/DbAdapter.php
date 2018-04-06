@@ -20,7 +20,7 @@ class DbAdapter
 
         if ($this->driver instanceof IElasticSearchDriver) {
             /** IElasticSearchDriver $driver */
-            //TODO: I THINK THE DATA IS IN THE SAME STRUCTURE :)
+            //TODO: I THINK THE DATA ARE IN THE SAME STRUCTURE :)
             return $this->driver->findById($id);
         }
 
